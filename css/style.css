@@ -1,0 +1,51 @@
+/* html - container */
+html{
+	height: 100%;
+
+}
+
+
+body{
+	height: 100%;
+
+	
+}
+
+.container{
+	background-color: white;
+
+}
+
+/* general content */
+header{
+
+	background-color: black;
+	width: 100%;
+	margin-bottom: 20%;
+}
+
+section {
+	height: 100%;
+	background-color: #383838;
+}
+
+
+.middle{
+	padding-top: 0;
+    padding-right: 10%;
+    padding-bottom: 0;
+    padding-left: 20%;
+}
+
+.twoo{
+	background-color: yellow;
+
+}
+
+
+/* thypography */
+
+
+
+
+

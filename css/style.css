@@ -46,6 +46,9 @@ table {
 
 /* html - container */
 
+html{
+height: 100%;
+}
 
 .container{
 	width: 80%;

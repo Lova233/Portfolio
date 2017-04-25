@@ -1,51 +1,88 @@
 /* html - container */
 html{
 	height: 100%;
-
-}
-
-
-body{
-	height: 100%;
-
-	
 }
 
 .container{
-	background-color:  white;
-
-}
-
-/* general content */
-header{
-
-	background-color: black;
-	width: 100%;
-	margin-bottom: 20%;
+	width: 80%;
+	height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 section {
-	height: 100%;
-	background-color: #383838;
+	min-height: 100vh;
+	height: auto;
+
 }
 
 
-.middle{
-	padding-top: 0;
-    padding-right: 10%;
-    padding-bottom: 0;
-    padding-left: 20%;
+ #first{
+ 	margin-top: 60px;
+ 	background-color: grey;
+
+ }
+
+
+/* general content */
+header{
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+
+
 }
+/* flex box */
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  width: 800px;
+  max-width: 100%;
+
+
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
+
 
 .twoo{
-	background-color: yellow;
+	background-color: white;	
+}
+
+#logo{
+	max-width: 200px;
 
 }
 
 
 /* thypography */
 
-
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+	color: black;
+	text-align: center;
+	margin: auto 0		;
+}
 
 
 

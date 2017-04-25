@@ -50,6 +50,12 @@ table {
 .container{
 	width: 80%;
 	height: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.containerheader{
+	width: 80%;
+	height: 100%;
 	max-width: 900px;
 	margin: 0 auto;
 }
@@ -138,14 +144,22 @@ footer{
 
 }
 
+#logo1{
+	height: 60px;
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    float: right;
+    position: relative;
+    top: 15px;
+}
 
 /* thypography */
-
 h1{
 	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	color: black;
-	text-align: center;
+	text-align: left;
 	margin: auto 0		;
 }
 
@@ -153,19 +167,34 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	font-size: 2em;
 	color: black;
-	text-align: center;
+	text-align: left;
 	margin: auto 0;	
 
 }
 
-p{
+.left{
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.2em;
 	color: black;
-	text-align: center;
+	text-align: left;
 	margin: auto 0;
-	padding: 20px;	
+	padding-top: 20px;
+
 }
+
+.central{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	color: black;
+	text-align: center;
+	
+}
+
+
+a{
+	color: inherit;
+}
+
 
 
 a{
